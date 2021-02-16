@@ -30,7 +30,7 @@ Esses componentes englobam:
 
 #### Navegador e páginas web
 
-O navegador permite que o usuário interaja com as funções das aplicações web. Além disso, as páginas por ele exibidas são geralmente desenvolvidas usando HTML, CSS e Javascript.
+O navegador recebe e processa o código das páginas web, geralmente desenvolvidas usando HTML, CSS e Javascript, e então mostrar o resultado para o usuário e permitir que ele interaja com a página já pronta.
 
 #### Servidor da aplicação Web
 

@@ -57,7 +57,7 @@ O código Javascript pode estar dentro ou fora de um documento HTML. Em ambos os
 
 ## Estrutura e sintaxe do JS
 
-### Variáveis e constantes:
+### Variáveis e constantes
 
 **Variáveis** são usadas para armazenar dados que podem ser modificados a qualquer momento. Em JS, as variáveis são declaradas com `var` ou `let`e elas podem ser praticamente qualquer coisa: números, palavras, funções etc.
 
@@ -114,7 +114,7 @@ Já ao usar `let`, a variável sempre será _block scoped_, ou seja, ela está l
     }; // isso não é permitido! ERRO!!
 ```
 
-### Operadores e comparadores:
+### Operadores e comparadores
 
 * **Operadores aritméticos**: são os operadores que realizam operações aritméticas em números \(e variáveis com valores numéricos\). Entretanto, em certos casos, é possível usar esses operadores com outros tipos de variáveis, como no caso de "soma" de strings \(`"Nome " + "Sobrenome" -> "Nome Sobrenome"`\).
 
@@ -143,8 +143,8 @@ Já ao usar `let`, a variável sempre será _block scoped_, ou seja, ela está l
 | &lt;= | Menor ou igual que | `4 <= 3 (false)` |
 
 * Ainda há os **comparadores lógicos**. São eles:
-  * `&&` \(and\): `(2 < 10 && 0 > 1)` --&gt; verdade **E** mentira é **mentira** 
-  * `||` \(or\): `(5 == 5 || 3 == 5)` --&gt; verdade **OU** mentira é **verdade**    
+  * `&&` \(and\): `(2 < 10 && 0 > 1)` --&gt; verdade **E** mentira é **mentira**
+  * `||` \(or\): `(5 == 5 || 3 == 5)` --&gt; verdade **OU** mentira é **verdade**
   * `!` \(not\): `!(1 == 1)` --&gt; **NÃO** verdade é **mentira**
 * E, por último, também é importante conhecer o **comparador ternário**, que atua como um comparador IF:
 
@@ -154,9 +154,10 @@ Já ao usar `let`, a variável sempre será _block scoped_, ou seja, ela está l
 
 voteable = \(\)\(age\) =&gt; { if \(age &lt; 18\) { return "Too young"; } else { return "Old enough"; } }
 
-```text
-### Tipos de dados:
+### Tipos de dados
+
 De forma simplificada, podemos resumir os tipos de dados em primitivos e complexos. Os **tipos primitivos** são: *string* (basicamente, caractéres e palavras - sempre entre aspas), *boolean* (verdadeiro ou falso), *number* (número inteiro, real) e *undefined* (variáveis sem valor definido). Já os **tipos complexos** são: *object* (listas, JSON, XML, vetores, dados inexistentes etc.) e *function* (funções).
+
 ``` javascript
 typeof "" // String
 typeof "Marcelo Batata" // String
@@ -188,7 +189,7 @@ null === undefined // retorna false
 null == undefined // retorna true (loose comparison)
 ```
 
-### Funções:
+### Funções
 
 Funções são blocos de códigos que executam uma tarefa. Algo deve invocar a função para ela ser executada \(ela precisa de algum "gatilho", nem que seja outra parte do código "chamando" ela - ou até ela própria se invocando\). Ou seja, a execução do código dentro da função ocorre quando:
 
@@ -196,7 +197,7 @@ Funções são blocos de códigos que executam uma tarefa. Algo deve invocar a f
 * A função é invocada por outro trecho de código Javascript;
 * A própria função invoca-se e é executada automaticamente.
 
-#### Sintaxe:
+#### Sintaxe
 
 ```javascript
 function nome_funcao(parametro1, parametro2, parametro3) {
@@ -215,7 +216,7 @@ var multiplicacao = function(x, y) {
 const multiplicacao2 = (x, y) => { return x * y };
 ```
 
-### Exemplo comentado:
+### Exemplo comentado
 
 Para ajudar no entendimento da sintaxe da linguagem é bom analisar um trecho de código comentado: _Obs.: `//` representa um comentário._
 
@@ -242,4 +243,3 @@ async function requisitarDadosPessoais(userID) {
     return dados; // caso a função não tenha terminado antes, ela termina aqui, retornando o conteúdo de 'dados' (variável) para onde foi feita a chamada à essa função
 }
 ```
-
