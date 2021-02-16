@@ -1,5 +1,7 @@
 # Introdução ao Javascript
 
+## Visão Geral
+
 Javascript \(ou ECMAScript\) é uma linguagem de programção muito utilizada no desenvolvimento Web. Com ela, é possível programar o comportamento das páginas HTML - alterar conteúdo e atributos HTML, CSS e mais.
 
 O JavaScript nasceu como uma linguagem voltada para processamento no navegador. Entretanto, com a chegada do Node.js, que permite a execução de Javascript fora do navegador, _back-ends_ de websites e aplicações feitas majoritariamente em Javascript \(como o Discord\) também passaram a utilizar amplamente a linguagem.
@@ -16,7 +18,26 @@ Praticamente todas as páginas na internet usam Javascript para fazer operaçõe
 </html>
 ```
 
-## Script interno e externo
+### Engines
+
+Uma Engine Javascript ou Interpretador Javascript é um programa especializado em ler e processar código Javascript, todos os mais populares navegadores modernos utilizam interpretadores mas a engine especifica depende de qual navegador está sendo utilizadas, sendo possivel que diferentes interpretadores entendam código de formas diferentes. Alguns exemplos de engines e navegadores diferentes são:
+
+| Engine        | Navegador    |
+| ------------- |:-------------|
+|  [V8](https://en.wikipedia.org/wiki/V8_(JavaScript_engine))         | Google Chrome e Opera |
+|  [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey)         | FireFox  |
+|  [Chakra](https://en.wikipedia.org/wiki/Chakra_(JavaScript_engine)) | Internet Explorer |
+|  [WebKit](https://en.wikipedia.org/wiki/WebKit)                     | Safari |
+
+Por consequência é importante sempre verificar quais features são tem suporte em quais engines, para isso você pode verificar em tabelas de compatibilidade:
+  * https://caniuse.com/
+  * https://kangax.github.io/compat-table/es6/
+
+É importante lembrar que mesmo navegadores sendo o principal uso de Engines qualquer software que precisa processar Javascript utiliza uma engine de forma ou outra.
+
+## Estrutura e sintaxe do JS
+
+### Script interno e externo
 
 O código Javascript pode estar dentro ou fora de um documento HTML. Em ambos os casos, o Javascript fica dentro de uma tag `<script></script>`.
 
@@ -54,8 +75,6 @@ O código Javascript pode estar dentro ou fora de um documento HTML. Em ambos os
     </body>
   </html>
   ```
-
-## Estrutura e sintaxe do JS
 
 ### Variáveis e constantes
 
