@@ -30,8 +30,9 @@ Uma Engine Javascript ou Interpretador Javascript é um programa especializado e
 |  [WebKit](https://en.wikipedia.org/wiki/WebKit)                     | Safari |
 
 Por consequência é importante sempre verificar quais features são tem suporte em quais engines, para isso você pode verificar em tabelas de compatibilidade:
-  * https://caniuse.com/
-  * https://kangax.github.io/compat-table/es6/
+
+* <https://caniuse.com/>
+* <https://kangax.github.io/compat-table/es6/>
 
 É importante lembrar que mesmo navegadores sendo o principal uso de Engines qualquer software que precisa processar Javascript utiliza uma engine de forma ou outra.
 
@@ -167,15 +168,32 @@ Já ao usar `let`, a variável sempre será _block scoped_, ou seja, ela está l
   * `!` \(not\): `!(1 == 1)` --&gt; **NÃO** verdade é **mentira**
 * E, por último, também é importante conhecer o **comparador ternário**, que atua como um comparador IF:
 
-  \`\`\` javascript // Comparador ternário: variablename = \(condition\) ? value1 : value2; var voteable = \(age &lt; 18\) ? "Too young" : "Old enough";
+``` javascript 
+// Comparador ternário: 
+// variablename = (condition) ? value1 : value2;
+var voteable = (age < 18) ? "Too young" : "Old enough";
 
 // Isso é igual a:
-
-voteable = \(\)\(age\) =&gt; { if \(age &lt; 18\) { return "Too young"; } else { return "Old enough"; } }
+if (age < 18) {
+  voteable = "Too young";
+} else {
+  voteable = "Old Enough";
+}
+```
 
 ### Tipos de dados
 
-De forma simplificada, podemos resumir os tipos de dados em primitivos e complexos. Os **tipos primitivos** são: *string* (basicamente, caractéres e palavras - sempre entre aspas), *boolean* (verdadeiro ou falso), *number* (número inteiro, real) e *undefined* (variáveis sem valor definido). Já os **tipos complexos** são: *object* (listas, JSON, XML, vetores, dados inexistentes etc.) e *function* (funções).
+De forma simplificada, podemos resumir os tipos de dados em primitivos e complexos. Os **tipos primitivos** são:
+
+* *string* (basicamente, caractéres e palavras - sempre entre aspas).
+* *boolean* (verdadeiro ou falso).
+* *number* (número inteiro, real).
+* *undefined* (variáveis sem valor definido).
+
+Já os **tipos complexos** são:
+
+* *object* (listas, JSON, XML, vetores, dados inexistentes etc.).
+* *function* (funções).
 
 ``` javascript
 typeof "" // String
