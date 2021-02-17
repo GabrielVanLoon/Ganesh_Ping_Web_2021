@@ -10,7 +10,7 @@ Já a Web \(World Wide Web\) representa um conjunto de informações acessadas v
 
 Os recursos na Web costumam ser apresentados na forma de _web pages_ - que formam _websites_. Essas páginas são criadas e estilizadas por meio de linguagens como HTML, CSS e Javascript - sendo possível utilizar também outras, como PHP e Python.
 
-## Arquitetura de uma aplicação Web
+## A Arquitetura
 
 ![Arquitetura de um web app](../../.gitbook/assets/arquitetura_web_back_front.png)
 
@@ -26,7 +26,7 @@ Esses componentes englobam:
 * Servidor da aplicação web -&gt; _server-side_
 * Servidor do banco de dados -&gt; _server-side_
 
-  \_Obs.: o servidor da aplicação e do banco de dados podem ser a mesma máquina.
+  _Obs.: o servidor da aplicação e do banco de dados podem ser a mesma máquina._:w
 
 #### Navegador e páginas web
 

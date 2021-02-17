@@ -77,6 +77,27 @@ O código Javascript pode estar dentro ou fora de um documento HTML. Em ambos os
   </html>
   ```
 
+### Comentários
+
+Você pode adicionar comentários no seu código para mante-lo organizado sem afetar a execução, comentários são linhas de codigo que são ignoradas pelo interpretador.
+
+* Utilizando duas barras você comenta até o fim da linha
+
+``` javascript
+// Essa linha está comentada
+
+let variavel = "valor"; // Metade da linha está comentada
+```
+
+* Utilizando uma barra e um asterisco você pode comentar multiplas linhas de código
+
+``` javascript
+/* 
+  Esse é um comentário multilinha
+  Tudo aqui está comentado
+*/
+```
+
 ### Variáveis e constantes
 
 **Variáveis** são usadas para armazenar dados que podem ser modificados a qualquer momento. Em JS, as variáveis são declaradas com `var` ou `let`e elas podem ser praticamente qualquer coisa: números, palavras, funções etc.
@@ -257,7 +278,7 @@ const multiplicacao2 = (x, y) => { return x * y };
 
 ### Exemplo comentado
 
-Para ajudar no entendimento da sintaxe da linguagem é bom analisar um trecho de código comentado: _Obs.: `//` representa um comentário._
+Para ajudar no entendimento da sintaxe da linguagem é bom analisar um trecho de código comentado.
 
 ```javascript
 // o bloco de código da função 'requisitarDadosPessoais()' começa aqui e quando ela for chamada, tudo que está aqui dentro será executado (linha por linha, de cima para baixo)
