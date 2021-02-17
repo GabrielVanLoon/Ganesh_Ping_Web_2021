@@ -149,6 +149,8 @@ Já ao usar `let`, a variável sempre será _block scoped_, ou seja, ela está l
 | ++ | Incremento \(+1\) | `let x = 1; x++; // x = 2` |
 | -- | Decremento \(-1\) | `let x = 1/ x--; // x = 0` |
 
+> **Operações matematicas são "seguras" no JavaScript** isso significa que você pode fazer qualquer conta e não vai gerar um erro fatal que mata o programa, no máximo retornando *NaN* (Not-a-Number), um valor númerico que não existe.
+
 * **Comparadores**:
 
 | Comparador | Compração | Exemplo |
@@ -168,7 +170,7 @@ Já ao usar `let`, a variável sempre será _block scoped_, ou seja, ela está l
   * `!` \(not\): `!(1 == 1)` --&gt; **NÃO** verdade é **mentira**
 * E, por último, também é importante conhecer o **comparador ternário**, que atua como um comparador IF:
 
-``` javascript 
+``` javascript
 // Comparador ternário: 
 // variablename = (condition) ? value1 : value2;
 var voteable = (age < 18) ? "Too young" : "Old enough";
