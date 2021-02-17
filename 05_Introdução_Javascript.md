@@ -303,3 +303,9 @@ async function requisitarDadosPessoais(userID) {
     return dados; // caso a função não tenha terminado antes, ela termina aqui, retornando o conteúdo de 'dados' (variável) para onde foi feita a chamada à essa função
 }
 ```
+
+## Leitura adicional
+
+* Guias detalhados do JavaScript básico ao avançado: <https://javascript.info>
+* Manual: <https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference>
+* Especificação do JavaScript: <https://www.ecma-international.org/publications-and-standards/standards/ecma-262/>
