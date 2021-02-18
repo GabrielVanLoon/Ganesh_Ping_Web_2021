@@ -21,7 +21,7 @@ Ainda, em casos mais extremos, é possível executar um reverse shell a partir d
 ## Exemplos de Command Injection
 ### Exemplo 1
 Consideremos o seguinte código PHP
-```
+``` php
 <?php
     print("Please specify the name of the file to delete");
     print("<p>");
@@ -50,7 +50,7 @@ Consideremos uma aplicação web simples, que requisita a partir de um formulár
 Ao receber um ip como 127.0.0.1, o comando executado a partir do sistema operacional que roda a aplicação é o seguinte:
 ```ping -c 10 127.0.0.1```
 Em um código PHP seria algo do tipo
-```
+``` php
 $ip = $_GET['ip'];
 system("ping -c 10 $ip");
 ```
@@ -88,6 +88,6 @@ Dessa forma, a maneira mais precisa e eficiente de impossibilitar/mitigar ataque
 
 [Portswigger: aprendendo segurança web de graça](https://portswigger.net/web-security/os-command-injection)
 
-[Netsparker](https://www.netsparker.com/blog/web-security/command-injection-vulnerability/)
+[Netsparker, artigo sobre Command Injection e sua mitigação](https://www.netsparker.com/blog/web-security/command-injection-vulnerability/)
 
-[infosec](https://www.infosec.com.br/command-injection/)
+[infosec, site brasileiro sobre segurança web](https://www.infosec.com.br/command-injection/)
