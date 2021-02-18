@@ -23,7 +23,7 @@ Este é o exemplo mais simples de **Insecure Direct Object Reference**, pois nes
 ![Exemplo IDOR](https://i.imgur.com/mD3L5UU.png)
 
 #### Código vulnerável de exemplo:
-Esse trecho de código em Python foi retirado de um post no medium ((acesse-o aqui)[https://medium.com/@aysebilgegunduz/everything-you-need-to-know-about-idor-insecure-direct-object-references-375f83e03a87]). 
+Esse trecho de código em Python foi retirado de um post no medium [acesse-o aqui](https://medium.com/@aysebilgegunduz/everything-you-need-to-know-about-idor-insecure-direct-object-references-375f83e03a87). 
 Esse código é vulnerável pois um usuário pode passar qualquer `‘order_id’` em uma requisição GET que ele receberá as informações da ordem com aquele ID. Não há qualquer verificação que valide se o dono daquela ordem (com o `order_id` passado) é quem está fazendo a requisição, portanto, qualquer pessoa pode acessar qualquer ordem - basta saber o ID dela.
 
 ``` python
