@@ -74,7 +74,7 @@ Já se a URL retornasse dados que já são públicos por padrão, então a vulne
 
 Caso tenha interesse em saber mais sobre IDORs, recomendamos as seguintes referências:
 
-1. How-To: Find IDOR \(Insecure Direct Object Reference\) Vulnerabilities for large bounty rewards. \([https://www.bugcrowd.com/blog/how-to-find-idor-insecure-direct-object-reference-vulnerabilities-for-large-bounty-rewards/](https://www.bugcrowd.com/blog/how-to-find-idor-insecure-direct-object-reference-vulnerabilities-for-large-bounty-rewards/)\)
-2. PortSwigger: IDOR \([https://portswigger.net/web-security/access-control/idor](https://portswigger.net/web-security/access-control/idor)\)
-3. OWASP: IDOR \(Broken Access Control\) \([https://owasp.org/www-chapter-ghana/assets/slides/IDOR.pdf](https://owasp.org/www-chapter-ghana/assets/slides/IDOR.pdf)\)
-4. (Owasp IDOR Prevention Cheat Sheet)[https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html]
+1. [How-To: Find IDOR \(Insecure Direct Object Reference\) Vulnerabilities for large bounty rewards.]([https://www.bugcrowd.com/blog/how-to-find-idor-insecure-direct-object-reference-vulnerabilities-for-large-bounty-rewards/)
+2. [PortSwigger: IDOR](https://portswigger.net/web-security/access-control/idor)
+3. [OWASP: IDOR \(Broken Access Control\)]([https://owasp.org/www-chapter-ghana/assets/slides/IDOR.pdf)
+4. [Owasp IDOR Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html)
