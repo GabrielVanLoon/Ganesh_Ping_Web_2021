@@ -4,7 +4,7 @@
 
 Directory traversal é uma vulnerabilidade em que o atacante consegue acesso a arquivos arbitrários do server que está rodando um programa. Então, nesta vulnerabilidade é possível acessar documentos do diretório raíz.
 
-https://upload.wikimedia.org/wikipedia/commons/d/df/Directory_traversal.png
+![https://upload.wikimedia.org/wikipedia/commons/d/df/Directory_traversal.png](https://upload.wikimedia.org/wikipedia/commons/d/df/Directory_traversal.png)
 
 ## Lendo arquivos com directory traversal:
 
