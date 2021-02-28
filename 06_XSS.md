@@ -2,7 +2,7 @@
 
 XSS é a sigla para Cross-Site Scripting \(porque CSS já estava sendo usada\). Cross-Site Scripting é uma técnica que utiliza de certas vulnerabilidades para inserir código malicioso em uma página legítima na web. Geralmente, o código é escrito em Javascript, por ser a linguagem que o navegador usa durante a renderização de páginas web.
 
-Se quiser saber mais sobre Javascript, [clique aqui](javascript.md).
+Se quiser saber mais sobre Javascript, [clique aqui](05_Introdução_Javascript.md).
 
 As injeções de código por XSS, geralmente, têm o mesmo ponto de partida: falta de sanitização do _input_ do usuário.
 
