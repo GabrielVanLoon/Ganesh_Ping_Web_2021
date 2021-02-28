@@ -60,7 +60,7 @@ Conforme dito, o XSS se apoia, majoritariamente, na falta de filtros aplicados n
 
 ### CSP
 
-Outra forma de garantir que a página não sofrerá de vulnerabilidades XSS, mesmo que os campos não possuam filtros é criar um sistema de "autenticação de scripts". O [CSP](https://owasp.org/www-community/attacks/Content_Security_Policy) faz exatamente isso: ele restringe quais elementos da página HTML terão permissão de executar scripts. Dessa forma, impede a execução de código que não pertença genuinamente à página.
+Outra forma de garantir que a página não sofrerá de vulnerabilidades XSS, mesmo que os campos não possuam filtros é criar um sistema de "autenticação de scripts". O [CSP](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html) faz exatamente isso: ele restringe quais elementos da página HTML terão permissão de executar scripts. Dessa forma, impede a execução de código que não pertença genuinamente à página.
 
 ## Fontes
 
