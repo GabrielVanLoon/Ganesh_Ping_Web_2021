@@ -1,5 +1,5 @@
 # COMMAND INJECTION - SHELL INJECTION
-Vulnerabilidade web que permite com que o atacante execute comandos de terminal arbitrariamente, utilizando comandos do sistema operacional no servidor no qual roda a aplicação, sendo assim, possibilitando alcançar explorar a aplicação como um todo, assim como seus dados.
+Vulnerabilidade web que permite com que o atacante execute comandos de terminal arbitrariamente, utilizando comandos do sistema operacional no servidor no qual roda a aplicação, sendo assim, possibilitando alcançar e explorar a aplicação como um todo, assim como seus dados.
 
 A falha ocorre quando a aplicação envia comandos para o sistema operacional a partir de dados fornecidos pelo usuário, enviados para a aplicaçào via formulários, cookies, HTTP headers, entre outros, sendo que tais informações não recebem um tratamento ou não são validadas.
 
