@@ -63,10 +63,10 @@ Existem situações em que não é retornado para o usuário qual o resultado de
 
 Dessa forma, é necessário encontrar outros modos de identificar que existe de fato uma shell rodando comandos a partir dos dados fornecidos pelo usuário.
 
-Um exemplo é utilizando time delays: podemos inserir o comando ping com um número de determinado de pacotes ou de tempo para rodar, o que resulta em um delay da resposta da aplicação, resultante do tempo de execuçÀo do comando efetuado (ping com tempo ou pacotes delimitados).
+Um exemplo é utilizando time delays: podemos inserir o comando ping com um número de determinado de pacotes ou de tempo para rodar, o que resulta em um delay da resposta da aplicação, resultante do tempo de execução do comando efetuado (ping com tempo ou pacotes delimitados).
 
 ## Redirecionado o output
-Em algumas situações, podemos redirecionar o output de um comando que queremos verificar seu conteúdo, uma vez que não temos retorno da aplicação, mas podemos manipular um arquivo e visualizar seu conteúdo.
+Em algumas situações, podemos redirecionar o output de um comando que queremos verificar seu conteúdo, uma vez que não temos o retorno da aplicação, mas podemos manipular um arquivo e visualizar seu conteúdo.
 ```; whoami > /var/www/static/whoami.txt;```
 
 ## Principais comandos de OS injecting & como mitigar Command Injection
@@ -81,7 +81,7 @@ Os seguintes comandos são muito úteis para utilizar ao construir payloads de c
 - \`injected command\`
 - $(injected command)
 
-Dessa forma, a maneira mais precisa e eficiente de impossibilitar/mitigar ataques via command injection é realiar validações nos inputs realizados pelo usuário (*data-sanitize*), fazendo uma limpeza na string enviada a partir dos parâmetros, retirando os caracteres descritos acima.
+Dessa forma, a maneira mais precisa e eficiente de impossibilitar/mitigar ataques via command injection é realizar validações nos inputs realizados pelo usuário (*data-sanitize*), fazendo uma limpeza na string enviada a partir dos parâmetros, retirando os caracteres descritos acima.
 
 ## Fontes
 [Owasp, uma das melhores fontes para aprender segurança web](https://owasp.org/www-community/attacks/Command_Injection)
