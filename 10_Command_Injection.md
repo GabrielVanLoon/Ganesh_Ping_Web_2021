@@ -5,7 +5,7 @@ A falha ocorre quando a aplicação envia comandos para o sistema operacional a 
 
 Os dados fornecidos pelo usuário rodam em uma shell do sistema operacional da aplicação.
 
-Ao não ocorrer uma validação do input realizado pelo usuário, um atacante poderá inserir comandos de linha de terminal/sistema operacional através do parâmetro vulnerável, utiliazndo os privilégios da aplicação web, possibilitando um exploit.
+Ao não ocorrer uma validação do input realizado pelo usuário, um atacante poderá inserir comandos de linha de terminal/sistema operacional através do parâmetro vulnerável, utilizando os privilégios da aplicação web, possibilitando um exploit.
 
 Ainda, em casos mais extremos, é possível executar um reverse shell a partir do command injection, evoluindo o risco e consequências do ataque.
 
