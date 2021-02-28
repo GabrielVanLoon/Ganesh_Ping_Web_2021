@@ -2,7 +2,7 @@
 
 É uma vulnerabilidade web que permite ao atacante interferir nas _queries_ \(consultas\) feitas para o banco de dados de certa aplicação.
 
-Em geral, o atacante consegue visualizar dados armazenados no bando de dados que ele não deveria poder ver \(informação de outros usuários, dados da aplicação, senhas etc.\). Além disso, pode ser que o atacante consiga modificar e deletar dados do DB e, em casos mais extremos, escalar o ataque para comprometer o funcionamento do _back-end_ da aplicação ou performar um ataque DoS. De forma similar, ele pode subverter a lógica de certas aplicações e, por exemplo, passar pelo portal de login de algum site sem ter uma conta.
+Em geral, o atacante consegue visualizar dados armazenados no banco de dados que ele não deveria poder ver \(informação de outros usuários, dados da aplicação, senhas etc.\). Além disso, pode ser que o atacante consiga modificar e deletar dados do DB e, em casos mais extremos, escalar o ataque para comprometer o funcionamento do _back-end_ da aplicação ou performar um ataque DoS. De forma similar, ele pode subverter a lógica de certas aplicações e, por exemplo, passar pelo portal de login de algum site sem ter uma conta.
 
 ## Exemplos de SQL Injections
 
