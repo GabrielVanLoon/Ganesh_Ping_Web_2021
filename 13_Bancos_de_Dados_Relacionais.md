@@ -35,4 +35,6 @@ Alguns NOSQL são estruturados por meio de grafos, outros por meio de documentos
 * [Neo4j](https://neo4j.com/) - graph database
 * [MongoDB](https://www.mongodb.com/)
 
+* [Slides](https://docs.google.com/presentation/d/1a63G553yIaydrnve0kuhZQRrnW7QdjuCwtG1kYW5WKE/edit?usp=sharing)
+
 
