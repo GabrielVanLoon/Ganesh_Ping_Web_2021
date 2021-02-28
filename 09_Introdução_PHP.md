@@ -6,7 +6,7 @@
 
 ## 1. Quais linguagens de programação são utilizadas na Web?
 
-Relembrando a aula anterior, servidores web são do que computadores que possuem alguma aplicação agindo como Servidor HTTP e processando as requisições.
+Relembrando a aula anterior, servidores web são computadores que possuem alguma aplicação agindo como Servidor HTTP e processando as requisições.
 
 Na teoria, portanto, você pode comandar essa aplicação para enviar requisições para um programa escrito em qualquer linguagem que você desejar (obviamente, você teria que se atentar às especificações ao integrar o servidor HTTP ao seu programa, garantindo que o mesmo recebesse e retornasse os dados corretamente).
 
