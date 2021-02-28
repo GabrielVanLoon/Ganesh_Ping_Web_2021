@@ -18,7 +18,7 @@ Qualquer computador com acesso à uma rede pode agir como um Servidor Web e o ob
 
 ## 2. Servidor HTTP e Tipos de Conteúdos
 
-O mecanismos responsável por estabelecer as conexões e processar as mensagens HTTP recebidas é chamado de **Servidor HTTP**, e a sua função é mapear, por meio das informações recebidas pelos cabeçalhos, qual tipo de conteúdo o cliente deseja receber do servidor. 
+O mecanismo responsável por estabelecer as conexões e processar as mensagens HTTP recebidas é chamado de **Servidor HTTP**, e a sua função é mapear, por meio das informações recebidas pelos cabeçalhos, qual tipo de conteúdo o cliente deseja receber do servidor. 
 
 ![Estrutura Servidor HTTP](https://i.imgur.com/HHyYUgW.png)
 
