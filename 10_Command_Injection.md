@@ -31,7 +31,7 @@ Consideremos o seguinte código PHP
 ```
 O código consiste em pegar o que é enviado pelo parâmetro filename do método GET do protocolo HTTP, utilizando para rodar um comando do sistema operacional, sendo ele o rm, que deleta um arquivo especificado como parâmetro.
 
-Não existe tratamento ou validação do que é recebido pelo parâmetro, possibilitando um fácil ataque de um usuário malicioso, pasasndo comandos junto ao já existente.
+Não existe tratamento ou validação do que é recebido pelo parâmetro, possibilitando um fácil ataque de um usuário malicioso, passando comandos junto ao já existente.
 
 Realizando a seguinte requisição: enviar o nome do arquivo a ser removido pelo comando (rm bob.txt), mas acrescentando uma quebra de comando, com o caractere ";" e o comando id
 ```
