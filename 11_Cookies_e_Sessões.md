@@ -15,7 +15,7 @@ Assim podemos por exemplo fazer compras online adicionando produtos a um carrinh
 
 Exemplo de cookie feito utilizando-se do PHP:
 
-```php=
+```php
 <?php
     // cookies.php
 
@@ -41,7 +41,7 @@ Mas se o HTTP é stateless, e o servidor web não tem como identificar que a req
 
 Quando iniciamos uma sessão, é enviado um cookie para o navegador, com um valor único que corresponde a sessão aberta no servidor web. Vamos ilustrar através do exemplo abaixo:
 
-```php=
+```php
 <?php
     // sessions.php
 
