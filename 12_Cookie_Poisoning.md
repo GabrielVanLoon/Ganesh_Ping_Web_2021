@@ -28,13 +28,13 @@ Cookies (ou outros tokens de sessão) não gerados ou transmitidos com seguranç
     O F5 Advanced WAF usa inspeção de dados full proxy, análise de comportamento e aprendizado de máquina para fornecer segurança de aplicativo de alto nível, incluindo gerenciamento de sessão sofisticado e criptografia de cookies SSL / TLS. Ao interceptar todo o tráfego de e para o servidor da web, ele pode descriptografar esse tráfego e compará-lo com as informações enviadas pelo servidor para evitar que cookies alterados cheguem ao servidor ou aplicativo.
     Caso queira um video que explique melhor sobre o F5 Advanced WAF veja o video: (https://www.youtube.com/watch?v=HBbDKBV4QW0&ab_channel=F5DevCentral)
     
-    Use apenas comunicação HTTPS, por exemplo, impondo HSTS. Isso reduz muito a ameaça de espionagem no conteúdo do cookie.
+* Use apenas comunicação HTTPS, por exemplo, impondo HSTS. Isso reduz muito a ameaça de espionagem no conteúdo do cookie.
     
-    Faça a varredura regularmente de seus aplicativos da web usando um scanner de vulnerabilidade para encontrar e eliminar todas as vulnerabilidades de segurança que podem levar ao envenenamento de cookies.
+* Faça a varredura regularmente de seus aplicativos da web usando um scanner de vulnerabilidade para encontrar e eliminar todas as vulnerabilidades de segurança que podem levar ao envenenamento de cookies.
     
-    Não use seus próprios geradores para criar identificadores de sessão. Confie no seu software de servidor da web para fazer isso por você.
+* Não use seus próprios geradores para criar identificadores de sessão. Confie no seu software de servidor da web para fazer isso por você.
     
-    Nunca confie nos dados calculados do lado do cliente porque podem ser facilmente manipulados.
+* Nunca confie nos dados calculados do lado do cliente porque podem ser facilmente manipulados.
     
 ## Referências:
 https://www.f5.com/services/resources/glossary/cookie-poisoning
