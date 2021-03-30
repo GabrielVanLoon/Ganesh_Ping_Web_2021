@@ -24,6 +24,7 @@ Alguns exemplos de SGDBs relacionais são:
 * [Oracle DB](https://www.oracle.com/br/database/)
 * [PostgreSQL](https://www.postgresql.org/)
 * [MySQL](https://www.mysql.com/)
+* [Instalando MySQL no UBUNTU 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-pt)
 
 Os mais comuns em sistemas web são MySQL e PostgreSQL.
 
